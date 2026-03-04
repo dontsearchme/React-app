@@ -63,10 +63,6 @@ pipeline {
     }
 }
 
-
-
-### Step 3 — Create .gitignore
-Create `.gitignore` file in root folder and paste:
 ```
 node_modules/
 build/
