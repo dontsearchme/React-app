@@ -62,7 +62,3 @@ pipeline {
         }
     }
 }
-
-node_modules/
-build/
-.env
