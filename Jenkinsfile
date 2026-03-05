@@ -46,7 +46,7 @@ pipeline {
                         docker pull ${DOCKER_HUB_REPO}:latest &&
                         docker stop react-app || true &&
                         docker rm react-app || true &&
-                        docker run -d -p 3000:3000 --name react-app ${DOCKER_HUB_REPO}:latest
+                        docker run -d -p 80:80 --name react-app 
                         "
                     '''
                 }
