@@ -22,7 +22,7 @@ export default function Home() {
 
                     <div className="btnRow">
                         <Link className="btn primary" to="/contact">
-                            Book a Trial
+                            Book a class
                         </Link>
                         <Link className="btn ghost" to="/sports">
                             View Sports
